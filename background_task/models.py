@@ -5,7 +5,7 @@ from django.conf import settings
 from datetime import timedelta
 from hashlib import sha1
 import traceback
-from StringIO import StringIO
+from io import StringIO
 import logging
 
 try:
